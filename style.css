@@ -1,8 +1,101 @@
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+body {
+    background-image: url("image/hero.png");
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-image: linear-gradient(to bottom right, gray, lightgray);
+    border-radius: 5px;
+    height: 50px;
+    width: 1300px;
+    margin-top: 38px;
+}
+
+.navigation_bar ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    list-style: none;
+}
+
+.navigation_bar ul li {
+    border-left: white;
+    margin-left: 50px;
+}
+
+.bottom_section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 19vh;
+    width: 100%;
+}
+
+.top_text {
+    margin-left: 15%;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.top_text>h4 {
+    margin-left: 20%;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.top_footer {
+    margin-left: 131px;
+    font-weight: light;
+    color: #666;
+    font-size: 12px;
+}
+
+.bottom_footer {
+    margin-left: 131px;
+    font-weight: light;
+    color: #666;
+    font-size: 12px;
+}
+
+.navigation_bar i {
+    color: white;
+}
+
+input {
+    outline: none;
+    height: 100%;
+}
+
+#searchbox {
+    height: 20%;
+    color: transparent;
+    outline: none;
+    background-color: white;
+}
+
+#searchbox:focus {
+    outline: none;
+}
+
+#searching {
+    color: gray;
+    outline: none;
+    border: none;
+    margin-left: -110px;
+    font-size: 10px;
+}
 
 
-.top_section {
-
+/*
+input: [focus]{
 
 
 
 }
+*/
