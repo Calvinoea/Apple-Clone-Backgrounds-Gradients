@@ -41,14 +41,14 @@ nav {
   border-left-width: thin;
   border-right-width: thin;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), color-stop(1, #838383));
-  background-image: -moz-linear-gradient(center bottom, #787878 0%, #5e5e5e 50%, #707070 51%, #838383 100%);
+  background-image: -webkit-linear-gradient(center bottom, #787878 0%, #5e5e5e 50%, #707070 51%, #838383 100%);
   background-color: #5e5e5e;
   cursor: pointer;
 }
 
 .navigation_bar span:not(:last-child):hover {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3f3f3f), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555));
-  background-image: -moz-linear-gradient(center to bottom, #3f3f3f 0%, #383838 50%, #434343 51%, #555 100%);
+  background-image: -webkit-linear-gradient(center to bottom, #3f3f3f 0%, #383838 50%, #434343 51%, #555 100%);
   background-color: #383838;
   -moz-box-shadow: inset 0 0 5px 5px #535353;
   -webkit-box-shadow: inset 0 0 5px 5px #535353;
