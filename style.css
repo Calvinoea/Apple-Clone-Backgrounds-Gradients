@@ -2,53 +2,53 @@ a {
   text-decoration: none;
   color: cornflowerblue;
 }
-    
+
 body {
   background-image: url("image/hero.png");
   background-repeat: no-repeat;
 }
-    
+
 nav {
-   border-radius: 5px;
-   height: 50px;
-   width: 1300px;
-   margin-top: 40px;
-   color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 1300px;
+  margin-top: 40px;
+  color: white;
+}
+
+.navigation_bar div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  list-style: none;
 }
     
-    .navigation_bar div {
-        display: flex;
-        flex-direction: row;
-        margin-left: 10%;
-        list-style: none;
-    }
+.navigation_bar div a {
+   display: flex;
+   border-left: white;
+   margin-left: 22px;
+   margin-right: 22px;
+   align-items: center;
+   color: white;
+   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+   font-weight: lighter;
+}
     
-    .navigation_bar div a {
-        display: flex;
-        border-left: white;
-        margin-left: 22px;
-        margin-right: 22px;
-        align-items: center;
-        color: white;
-        font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-        font-weight: lighter;
-    }
+.navigation_bar div a {
+    color: white;
+}
     
-    .navigation_bar div a {
-        color: white;
-    }
-    
-    .navigation_bar span {
-        padding: 10px;
-        border-left-style: inset;
-        border-left-color: gray;
-        border-left-width: thin;
-        border-right-width: thin;
-        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5E5E5E), color-stop(0.51, #707070), color-stop(1, #838383));
-        background-image: -moz-linear-gradient(center bottom, #787878 0%, #5E5E5E 50%, #707070 51%, #838383 100%);
-        background-color: #5f5f5f;
-        cursor: pointer;
-    }
+.navigation_bar span {
+    padding: 10px;
+    border-left-style: inset;
+    border-left-color: gray;
+    border-left-width: thin;
+    border-right-width: thin;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5E5E5E), color-stop(0.51, #707070), color-stop(1, #838383));
+    background-image: -moz-linear-gradient(center bottom, #787878 0%, #5E5E5E 50%, #707070 51%, #838383 100%);
+    background-color: #5f5f5f;
+    cursor: pointer;
+}
     
     .navigation_bar span:not(:last-child):hover {
         background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3F3F3F), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555555));
