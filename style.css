@@ -1,12 +1,12 @@
 a {
   text-decoration: none;
   color: cornflowerblue;
-    }
+}
     
-    body {
-    background-image: url("image/hero.png");
-    background-repeat: no-repeat;
-    }
+body {
+   background-image: url("image/hero.png");
+   background-repeat: no-repeat;
+}
     
     nav {
         border-radius: 5px;
