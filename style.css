@@ -4,17 +4,17 @@ a {
 }
     
 body {
-   background-image: url("image/hero.png");
-   background-repeat: no-repeat;
+  background-image: url("image/hero.png");
+  background-repeat: no-repeat;
 }
     
-    nav {
-        border-radius: 5px;
-        height: 50px;
-        width: 1300px;
-        margin-top: 40px;
-        color: white;
-    }
+nav {
+   border-radius: 5px;
+   height: 50px;
+   width: 1300px;
+   margin-top: 40px;
+   color: white;
+}
     
     .navigation_bar div {
         display: flex;
