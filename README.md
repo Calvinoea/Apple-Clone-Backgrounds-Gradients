@@ -15,7 +15,7 @@ It is the frontend clone for an archived Apple landing page. The page has a hero
   
 ## Live Project  
 
-[Apple Landing Page](https://friendly-tereshkova-598834.netlify.com/)  
+[Apple Landing Page](https://boring-neumann-0810f5.netlify.com/)  
 
 https://rawcdn.githack.com/Calvinoea/Apple-Clone-Backgrounds-Gradients/tree/feature/index.html
 https://raw.githack.com/Calvinoea/Apple-Clone-Backgrounds-Gradients/tree/feature/index.html
